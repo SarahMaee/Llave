@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/icon.jpg"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+
+<style>
+ img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+</style>
+
+
+  
+    <title> &#x2661; My Portfolio</title>
+  </head>
+
+  <body style="background-image: url('bg.jpg');background-size: cover;">
+    
+    <!-- Navbar -->
+    <nav>
+      <h1> &#x2661; | MY PORTFOLIO  </h1>
+      <ul class="navigation">
+
+        <li><a href="home.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="blogs.html" class="nav-link">Blogs</a></li>
+        <li><a href="contacts.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    <!-- Contact section -->
+    <br>  <br> <br> 
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <br> <br> <hr> <br> <br> 
+
+      <center>
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title"> <center> <img src="assets/images/me.jpeg" </center></h2>
+        <p class="bio-text">
+          <b>Facebook: </b> <a href="https://web.facebook.com/profile.php?id=100006665268632" target="_blank"
+          >Sarah Mae Llave</a> <br>
+
+          <b>Instagram: </b> <a href="https://www.instagram.com/saraaaaahh_m/" target="_blank"
+          >saraaaaaahh_m</a> <br>
+
+          <b>Email: </b> <a href="mailto:sarahmaelerida.llave@bicol-u.edu.ph" target="_blank"
+          >sarahmaelerida.llave@bicol-u.edu.ph</a>
+        <br> <br>
+
+        </p>
+      </div>
+
+      <br> <br>
+
+    </center>
+
+    <br> <br>
+
+
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+
+            
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built with &#x2661; by Sarah ^^
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
