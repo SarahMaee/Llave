@@ -15,8 +15,3 @@ This is the [link](https://github.com/SarahMaee/Llave) to the Github repo of the
 
 
 
-## Tech Stack
-
-**Client:** HTML, CSS, Vanilla JavaSCript
-
-
